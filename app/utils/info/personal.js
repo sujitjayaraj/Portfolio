@@ -11,5 +11,5 @@ export const personalInfo = {
         "leetcode": "https://leetcode.com/u/sujitjayaraj235/",
         "twitter": "https://x.com/StunninglySujit"
     },
-    resume: "/public/Sujit Jayaraj resume.pdf"
+    resume: "https://sujitjayaraj.s3.ap-south-1.amazonaws.com/Sujit+Jayaraj+resume.pdf"
 }
