@@ -1,4 +1,4 @@
-import { personal as personalInfo } from '../utils/data/personal';
+import personal from '../utils/data/personal';
 import Image from "next/image";
 
 export default function About() {
@@ -16,13 +16,13 @@ export default function About() {
                         Who am I?
                     </p>
                     <p className={"text-gray-200 text-sm lg:text-lg"}>
-                        {personalInfo.description}
+                        {personal.description}
                     </p>
                 </div>
                 <div className={"flex justify-center order-1 lg:order-2"}>
                     <Image
-                        src={personalInfo.image}
-                        alt={personalInfo.name}
+                        src={personal.image}
+                        alt={personal.name}
                         width={280}
                         height={280}
                         className={"rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"}

@@ -1,4 +1,4 @@
-import { personal } from "@/app/utils/data/personal";
+import personal from "@/app/utils/data/personal";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
