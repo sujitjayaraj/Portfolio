@@ -82,7 +82,7 @@ export default function ContactForm() {
                             onChange={(e) => setUserInput({ ...userInput, email: e.target.value })}
                             onBlur={() => {
                                 checkRequired();
-                                setError({ ...error, email: isValidEmail(userInput.email) });
+                                setError({ ...error, email: !isValidEmail(userInput.email) });
                             }}
                         />
                         {error.email && <p className={"text-sm text-red-400"}>Please provide a valid email</p> }
