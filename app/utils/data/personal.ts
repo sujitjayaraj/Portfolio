@@ -9,7 +9,7 @@ export interface Personal {
     resume: string
 }
 
-export const personal: Personal = {
+const personal: Personal = {
     name: "Sujit Jayaraj",
     image: "/me.jpeg",
     designation: "Software Engineer",
@@ -24,3 +24,5 @@ export const personal: Personal = {
     },
     resume: "/resume.pdf"
 }
+
+export default personal;
