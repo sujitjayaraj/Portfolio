@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Navbar from "@/app/components/navbar";
+import Footer from "@/app/components/footer";
 import "./globals.scss";
 import "./card.scss";
 
@@ -31,7 +33,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ToastContainer />
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
