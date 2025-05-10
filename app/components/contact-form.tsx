@@ -65,7 +65,7 @@ export default function ContactForm() {
                             type={"text"}
                             maxLength={100}
                             required={true}
-                            onChange={(e) => setUserInput({ ...userInput, name: e.target.value})}
+                            onChange={(e) => setUserInput({ ...userInput, name: e.target.value })}
                             onBlur={checkRequired}
                             value={userInput.name}
                         />

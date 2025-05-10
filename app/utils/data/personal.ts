@@ -14,7 +14,7 @@ const personal: Personal = {
     image: "/me.jpeg",
     designation: "Software Engineer",
     description: "My name is Sujit Jayaraj, I am professional and enthusiastic software engineer with core skills in Java, JavaScript and Python. I love learning new technologies to build applications that improve the lives of people. I am a team player and I am always eager to learn from my peers and share my knowledge with them. Open to new opportunities and challenges that suits my skills and interests.",
-    email: "contact@mail.sujitjayaraj.tech",
+    email: "contact@sujitjayaraj.tech",
     address: "Bengaluru, Karnataka, India",
     social: {
         github: "https://github.com/sujitjayaraj",
