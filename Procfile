@@ -1,0 +1,3 @@
+worker: npm install
+worker: npm run build
+web: npm run start
