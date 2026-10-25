@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./globals.scss";
 import "./card.scss";
 import Navbar from "@/app/components/navbar";
+import ScrollToTop from "@/app/components/scroll-to-top";
 import Footer from "@/app/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,6 +27,7 @@ export default function RootLayout({
       <main className={"min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white"}>
           <Navbar/>
           {children}
+          <ScrollToTop/>
       </main>
       <Footer/>
       </body>
