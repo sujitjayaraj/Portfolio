@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./globals.scss";
 import "./card.scss";
 import Navbar from "@/app/components/navbar";
+import Footer from "@/app/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           <Navbar/>
           {children}
       </main>
+      <Footer/>
       </body>
       </html>
   );
